@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style4.css">
+    <title>User Profile</title>
+    <!-- Add necessary CSS links -->
+</head>
+<body>
+<div class="container">
+    <h2>Profil Utilisateur</h2>
+    <form id="userProfileForm">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" placeholder="Nom">
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" placeholder="Prénom">
+        <label for="gender">Genre :</label>
+        <select id="gender">
+            <option value="Male">Homme</option>
+            <option value="Female">Femme</option>
+        </select>
+        <label for="birthdate">Date de naissance :</label>
+        <input type="date" id="birthdate">
+        <label for="email">Email :</label>
+        <input type="email" id="email">
+        <label for="reason">Raison :</label>
+        <input type="text" id="reason">
+        <button type="submit">Modifier le Profil</button>
+        <button type="button" id="homePageButton">Page Principale</button>
+
+    </form>
+</div>
+
+<script src="bundles/profile.bundle.js"></script>
+
+
+</body>
+</html>
